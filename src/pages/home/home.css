@@ -1,0 +1,154 @@
+.posterImage{
+    height: 600px;
+    margin-top:1rem;
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgba(13, 24, 120, 0.501));
+    opacity: 1;
+    transition: opacity .3s;
+}   
+
+.posterImage__overlay:hover {
+    opacity: 1;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage__runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+
+/* Media query for screens less than or equal to 1200px */
+@media (max-width: 1200px) {
+    .posterImage {
+        height: 500px; /* Adjust the height for medium screens */
+    }
+}
+
+/* Media query for screens less than or equal to 700px */
+@media (max-width: 700px) {
+    .posterImage {
+        height: 400px; /* Adjust the height for small screens */
+        margin-top: 0.5rem; /* Adjust margin for small screens */
+    }
+
+    .posterImage__overlay {
+        padding: 3rem; /* Adjust padding for small screens */
+    }
+
+    .posterImage__title {
+        font-size: 3rem; /* Adjust font size for small screens */
+    }
+
+    .posterImage__runtime {
+        font-size: 1.5rem; /* Adjust font size for small screens */
+        margin-bottom: 0.5rem; /* Adjust margin for small screens */
+    }
+
+    .posterImage__rating {
+        margin-left: 2rem; /* Adjust margin for small screens */
+    }
+
+    .posterImage__description {
+        width: 60%; /* Adjust width for small screens */
+        font-size: 0.9rem; /* Adjust font size for small screens */
+    }
+}
+
+/* Media query for screens less than or equal to 600px */
+@media (max-width: 600px) {
+    .posterImage {
+        height: 300px; /* Adjust the height for extra small screens */
+        margin-top: 0.25rem; /* Adjust margin for extra small screens */
+    }
+
+    .posterImage__overlay {
+        padding: 2rem; /* Adjust padding for extra small screens */
+    }
+
+    .posterImage__title {
+        font-size: 2.5rem; /* Adjust font size for extra small screens */
+        margin-bottom: 0.3rem; /* Adjust margin for extra small screens */
+    }
+
+    .posterImage__runtime {
+        font-size: 1.2rem; /* Adjust font size for extra small screens */
+        margin-bottom: 0.3rem; /* Adjust margin for extra small screens */
+    }
+
+    .posterImage__rating {
+        margin-left: 1.5rem; /* Adjust margin for extra small screens */
+    }
+
+    .posterImage__description {
+        width: 70%; /* Adjust width for extra small screens */
+        font-size: 0.8rem; /* Adjust font size for extra small screens */
+    }
+}
+
+/* Media query for screens less than or equal to 400px */
+@media (max-width: 400px) {
+    .posterImage {
+        height: 250px; /* Adjust the height for very small screens */
+        margin-top: 0.2rem; /* Adjust margin for very small screens */
+    }
+
+    .posterImage__overlay {
+        padding: 1rem; /* Adjust padding for very small screens */
+    }
+
+    .posterImage__title {
+        font-size: 2rem; /* Adjust font size for very small screens */
+        margin-bottom: 0.2rem; /* Adjust margin for very small screens */
+    }
+
+    .posterImage__runtime {
+        font-size: 1rem; /* Adjust font size for very small screens */
+        margin-bottom: 0.2rem; /* Adjust margin for very small screens */
+    }
+
+    .posterImage__rating {
+        margin-left: 1rem; /* Adjust margin for very small screens */
+    }
+
+    .posterImage__description {
+        width: 80%; /* Adjust width for very small screens */
+        font-size: 0.7rem; /* Adjust font size for very small screens */
+    }
+}

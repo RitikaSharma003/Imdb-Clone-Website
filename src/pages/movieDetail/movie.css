@@ -1,0 +1,405 @@
+.movie {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.movie__intro {
+    width: 80%;
+}
+
+.movie__backdrop {
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+    object-position: 0 35%;
+}
+
+.movie__detail {
+    align-items: center;
+    width: 75%;
+    display: flex;
+    position: relative;
+    bottom: 225px;
+}
+
+.movie__detailLeft {
+    margin-right: 30px;
+}
+
+.movie__poster {
+    width:300px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 51, 142, 0.86) 0px 10px 15px 5px;
+}
+
+.movie__detailRight {
+    color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content:space-between ;
+}
+
+.movie__detailRightTop > div{
+    text-shadow: 0px 0px 5px #5a7df9;
+    margin-bottom: 0px;
+   
+}
+
+.movie__name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.movie__voteCount {
+    margin-left: 1rem;
+}
+
+.movie__genres {
+    margin: 1.25rem 0;
+}
+
+.movie__genre {
+    padding: .5rem;
+    border: 2px solid rgba(24, 65, 135, 0.578);
+    border-radius: 20px;
+    margin-right: 1rem;
+    color:white;
+    background-color:rgb(155, 193, 250);
+    
+}
+
+
+.movie__detailRightBottom {
+    margin: 2rem 0;
+    flex: 1;
+}
+
+.synopsisText {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.synopsisText > div:last-of-type {
+    margin-left: auto;
+}
+
+.movie__links {
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.movie__heading {
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0b4cd792; /* Add a border around the box */
+    padding: 10px; /* Add some padding inside the box */
+    margin: 2px; /* Add margin around the box */
+    border-radius: 9px; /* Add rounded corners to the box */
+    
+}
+
+.movie__Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    border-radius: 20px;
+    margin-left:2px;
+    cursor: pointer;
+    width: 150px;
+    color: rgb(249, 249, 249);
+    font-weight: bold;
+}
+
+.movie__homeButton {
+   
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+.movie__homeButton:hover{
+
+    
+    border-color:white;
+    box-shadow:rgba(27, 33, 113, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(47, 67, 158, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(35, 65, 141, 0.395) 0px -3px 5px;
+}
+
+.movie__imdbButton {
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+
+.movie__imdbButton:hover {
+    /* Add your hover styles here */
+    /* For example, you can change the background color or border color */
+  
+    border-color:white;
+    box-shadow:rgba(34, 41, 138, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(52, 75, 178, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(39, 72, 154, 0.395) 0px -3px 5px;
+}
+
+.newTab {
+    margin-left: 1.4rem;
+}
+.movie__heading{
+    margin-bottom:3px;
+
+
+}
+
+.movie__production {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top:2rem;
+    margin-bottom: 3rem;
+    
+
+}
+
+
+.movie__productionComapany {
+    width: 200px;
+    
+
+    margin: 3rem;
+}
+
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #0b4cd792; /* Add a border around the box */
+    padding:4px; /* Add some padding inside the box */
+    margin: 2px; /* Add margin around the box */
+    border-radius: 8px; /* Add rounded corners to the box */
+    background-color: #d0d8fc;
+    margin-left:4px;
+}
+
+.productionCompanyImage:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white ; /* Add a border around the box */
+    padding: 6px; /* Add some padding inside the box */
+    
+
+    margin: 5px; /* Add margin around the box */
+    border-radius: 8px; /* Add rounded corners to the box */
+    background-color: #d0d8fc;
+    transform: scale(1.1);
+    z-index: 800;
+    box-shadow: rgba(59, 70, 222, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(66, 94, 216, 0.615) 0px 4px 6px, rgba(10, 21, 105, 0.473) 0px 12px 13px, rgba(25, 49, 111, 0.395) 0px -3px 5px;
+    border:3px solid rgb(41, 176, 238)
+}
+
+.movie__production{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgba(59, 70, 222, 0.612); /* Add a border around the box */
+    padding: 7px; /* Add some padding inside the box */
+    margin: 10px; /* Add margin around the box */
+    border-radius: 5px; /* Add rounded corners to the box */
+}
+
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px; /* Add margin around each company */
+}
+
+
+
+/* Media query for screens less than or equal to 1200px */
+@media (max-width: 1200px) {
+    .movie__links {
+        width: 80%; /* Adjust the width for medium screens */
+    }
+
+    .movie__Button {
+        width: 150px; /* Adjust button width for medium screens */
+    }
+
+    
+.movie__homeButton {
+   
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+.movie__homeButton:hover{
+
+    
+    border-color:white;
+    box-shadow:rgba(27, 33, 113, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(47, 67, 158, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(35, 65, 141, 0.395) 0px -3px 5px;
+}
+
+.movie__imdbButton {
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+
+.movie__imdbButton:hover {
+    /* Add your hover styles here */
+    /* For example, you can change the background color or border color */
+  
+    border-color:white;
+    box-shadow:rgba(34, 41, 138, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(52, 75, 178, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(39, 72, 154, 0.395) 0px -3px 5px;
+}
+
+}
+
+/* Media query for screens less than or equal to 700px */
+@media (max-width: 700px) {
+    .movie__links {
+        width: 90%; /* Adjust the width for small screens */
+        bottom: 150px; /* Adjust the position for small screens */
+    }
+
+    .movie__Button {
+        width: 150px; /* Adjust button width for small screens */
+    }
+
+    
+.movie__homeButton {
+   
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+.movie__homeButton:hover{
+
+    
+    border-color:white;
+    box-shadow:rgba(27, 33, 113, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(47, 67, 158, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(35, 65, 141, 0.395) 0px -3px 5px;
+}
+
+.movie__imdbButton {
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+
+.movie__imdbButton:hover {
+    /* Add your hover styles here */
+    /* For example, you can change the background color or border color */
+  
+    border-color:white;
+    box-shadow:rgba(34, 41, 138, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(52, 75, 178, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(39, 72, 154, 0.395) 0px -3px 5px;
+}
+
+}
+
+/* Media query for screens less than or equal to 600px */
+@media (max-width: 600px) {
+    .movie__links {
+        width: 100%; /* Adjust the width for extra small screens */
+        bottom: 100px; /* Adjust the position for extra small screens */
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: center; /* Center align buttons */
+    }
+
+    .movie__Button {
+        width: 190px; /* Adjust button width for extra small screens */
+        margin-top: 10px; /* Add margin between buttons for extra small screens */
+    }
+
+
+    
+.movie__homeButton {
+   
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+.movie__homeButton:hover{
+
+    
+    border-color:white;
+    box-shadow:rgba(27, 33, 113, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(47, 67, 158, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(35, 65, 141, 0.395) 0px -3px 5px;
+}
+
+.movie__imdbButton {
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+
+.movie__imdbButton:hover {
+    /* Add your hover styles here */
+    /* For example, you can change the background color or border color */
+  
+    border-color:white;
+    box-shadow:rgba(34, 41, 138, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(52, 75, 178, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(39, 72, 154, 0.395) 0px -3px 5px;
+}
+
+}
+
+/* Media query for screens less than or equal to 400px */
+@media (max-width: 400px) {
+    .movie__links {
+        width: 100%; /* Adjust the width for very small screens */
+        bottom: 50px; /* Adjust the position for very small screens */
+    }
+
+    .movie__Button {
+        width: 200px; /* Adjust button width for very small screens */
+        margin-top: 10px; /* Add margin between buttons for very small screens */
+    }
+    
+.movie__homeButton {
+   
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+.movie__homeButton:hover{
+
+    
+    border-color:white;
+    box-shadow:rgba(27, 33, 113, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(47, 67, 158, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(35, 65, 141, 0.395) 0px -3px 5px;
+}
+
+.movie__imdbButton {
+    background-color:#3733bfce;
+    border:2.5px solid rgb(13, 135, 249);
+    
+}
+
+.movie__imdbButton:hover {
+    /* Add your hover styles here */
+    /* For example, you can change the background color or border color */
+  
+    border-color:white;
+    box-shadow:rgba(34, 41, 138, 0.612) 0px 54px 55px, rgba(62, 110, 222, 0.715) 0px -12px 30px, rgba(52, 75, 178, 0.615) 0px 4px 6px, rgba(16, 31, 144, 0.473) 0px 12px 13px, rgba(39, 72, 154, 0.395) 0px -3px 5px;
+}
+
+}
