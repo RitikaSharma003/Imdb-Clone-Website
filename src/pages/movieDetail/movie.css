@@ -573,6 +573,18 @@
       padding: 0;
       margin: 0;
     }
+    .productionCompanyImage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid #0b4cd792; /* Add a border around the box */
+        padding:4px; /* Add some padding inside the box */
+        margin: 2px; /* Add margin around the box */
+        border-radius: 8px; /* Add rounded corners to the box */
+        background-color: #d0d8fc;
+        margin-left:4px;
+    }
   
     .productionCompanyImage {
       margin: 10px;
@@ -651,6 +663,18 @@
       padding: 0;
       margin: 0;
     }
+    .productionCompanyImage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid #0b4cd792; /* Add a border around the box */
+        padding:4px; /* Add some padding inside the box */
+        margin: 2px; /* Add margin around the box */
+        border-radius: 8px; /* Add rounded corners to the box */
+        background-color: #d0d8fc;
+        margin-left:4px;
+    }
   
     .productionCompanyImage {
       margin: 10px;
@@ -711,6 +735,18 @@
       margin: 1rem 0;
     }
   
+    .productionCompanyImage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid #0b4cd792; /* Add a border around the box */
+        padding:4px; /* Add some padding inside the box */
+        margin: 2px; /* Add margin around the box */
+        border-radius: 8px; /* Add rounded corners to the box */
+        background-color: #d0d8fc;
+        margin-left:4px;
+    }
     .productionCompanyImage {
         border: 3px solid #0b4cd792;
         padding: 4px;
@@ -780,6 +816,18 @@
       font-size: 1.5rem; /* Reduce font size for smaller screens */
       margin-bottom: 1rem;
       margin-top:100px; /* Add margin to separate from other content */
+    }
+    .productionCompanyImage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid #0b4cd792; /* Add a border around the box */
+        padding:4px; /* Add some padding inside the box */
+        margin: 2px; /* Add margin around the box */
+        border-radius: 8px; /* Add rounded corners to the box */
+        background-color: #d0d8fc;
+        margin-left:4px;
     }
   
     .movie__Button {
