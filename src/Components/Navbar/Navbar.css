@@ -1,0 +1,19 @@
+
+
+.custom-links {
+    display: flex;
+    gap: 10px; /* Adjust the spacing between links as needed */
+    overflow-x: auto; /* Enable horizontal scroll for smaller screens */
+    max-width: 100%; /* Ensure links do not overflow the container */
+  }
+  
+  /* Media query to handle responsiveness */
+ 
+  @media (max-width: 486px) {
+    .custom-links {
+        flex-direction: row; /* Ensure links are in a row */
+        justify-content: flex-start; /* Align links to the start of the container */
+        font-size: 14px
+    }
+  
+  }
