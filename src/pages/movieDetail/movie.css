@@ -788,7 +788,7 @@
     .movie__heading {
       font-size: 1.5rem; /* Reduce font size for smaller screens */
       margin-bottom: 1rem;
-      margin-top:100px; /* Add margin to separate from other content */
+      margin-top:200px; /* Add margin to separate from other content */
     }
   
     .movie__Button {
