@@ -839,4 +839,29 @@
   
       
       
-      
+  .movie__genres {
+    margin: 1.25rem 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    /* * Allow genres to wrap to the next line */ 
+}
+
+.movie__genre {
+    padding: .3rem .5rem; /* Adjust padding as needed */
+    border: 2px solid rgba(24, 65, 135, 0.578);
+    border-radius: 20px;
+    margin-right: 1rem;
+    margin-bottom: 1rem; /* Add margin-bottom to separate genres */
+    color: white;
+    background-color: rgb(155, 193, 250);
+    white-space: nowrap; /* Prevent genre text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Add ellipsis (...) to indicate truncated text */
+    width: auto; /* Allow the genre boxes to adjust their width */
+    max-width: 100%; /* Set a maximum width to avoid overlapping */
+}
+
+
+
+
