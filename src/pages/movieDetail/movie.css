@@ -414,6 +414,8 @@
         background-color: #d0d8fc;
         margin-left:4px;
     }
+
+    
     
     .productionCompanyImage:hover {
         display: flex;
@@ -469,8 +471,11 @@
 @media (max-width: 400px) {
     .movie__links {
         width: 100%; /* Adjust the width for very small screens */
-        bottom: 50px; /* Adjust the position for very small screens */
+        /* Adjus the position for very small screens */
+
+        margin-bottom: 9rem;
     }
+    
     .movie__Button {
         width: 200px; /* Adjust button width for very small screens */
         margin-top: 10px; /* Add margin between buttons for very small screens */
@@ -875,3 +880,21 @@
 
 
 
+@media (max-width: 420px) and (min-width: 400px)
+{
+.movie__links .hello {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 100px}
+
+
+    .movie__detailRight {
+        color: rgb(240, 240, 240);
+        display: flex;
+        flex-direction: column;
+        height: 634px;
+        justify-content: space-between;
+    }
+
+    
+}

@@ -57,8 +57,11 @@ const Movie = () => {
                     
                 </div>
             </div>
-            <div className="movie__links">
-                <div className="movie__heading text-blue-300 font-bold text-2xl my-9">Useful Links</div>
+
+
+            <div></div>
+            <div className="movie__links ">
+                <div className="movie__heading text-blue-300 font-bold text-2xl my-9 hello ">Useful Links</div>
                 {
                     currentMovieDetail && currentMovieDetail.homepage && <a href={currentMovieDetail.homepage} target="_blank" style={{textDecoration: "none"}}><p><span className="movie__homeButton movie__Button my-8">Homepage <i className="newTab fas fa-external-link-alt"></i></span></p></a>
                 }
