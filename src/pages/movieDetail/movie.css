@@ -880,7 +880,7 @@
 
 
 
-@media (max-width: 420px) and (min-width: 400px)
+@media (max-width: 600px) and (min-width: 400px)
 {
 .movie__links .hello {
     font-size: 1.5rem;
@@ -892,7 +892,7 @@
         color: rgb(240, 240, 240);
         display: flex;
         flex-direction: column;
-        height: 701px;
+        height: 700px;
         justify-content: space-between;
     }
 
